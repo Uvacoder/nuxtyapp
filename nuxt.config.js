@@ -64,14 +64,6 @@ export default {
     proxy: true
   },
   build: {
-    /*
-    ** You can extend webpack config here
-    */
-    extend(config, ctx) {
-    },
-    babel: {
-      plugins: ["@babel/plugin-proposal-optional-chaining"]
-    },
   },
   sitemap: {
     gzip: true,
